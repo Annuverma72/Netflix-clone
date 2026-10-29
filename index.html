@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Clone</title>
+  <meta name="description" content="A Netflix-inspired homepage clone with trending movies, feature highlights, and FAQ." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="top-nav">
+      <div class="nav-brand">
+        <h1 class="logo">Netflix</h1>
+      </div>
+      <div class="nav-actions">
+        <button class="signin-btn" type="button">Sign In</button>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Stream anywhere. Cancel anytime.</p>
+      <h2>Unlimited movies, TV shows, and more.</h2>
+      <p class="hero-copy">
+        Ready to watch? Enter your email to create or restart your membership and enjoy the latest releases from every genre.
+      </p>
+      <form id="email-form" class="email-box">
+        <input id="email" type="email" placeholder="Email address" required />
+        <button class="cta-btn" type="submit">Get Started</button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section class="trending">
+      <div class="section-heading">
+        <h2>Trending now</h2>
+        <p>Discover the hottest titles picked for you.</p>
+      </div>
+
+      <div class="trending-slider">
+        <button class="arrow left" type="button" aria-label="Scroll left">&lt;</button>
+        <div class="trending-list">
+          <article class="movie-card">
+            <span class="number">1</span>
+            <img src="images/movie1.jpg" alt="Movie 1" />
+            <p class="movie-title">Movie One</p>
+          </article>
+          <article class="movie-card">
+            <span class="number">2</span>
+            <img src="images/movie2.jpg" alt="Movie 2" />
+            <p class="movie-title">Movie Two</p>
+          </article>
+          <article class="movie-card">
+            <span class="number">3</span>
+            <img src="images/movie3.jpg" alt="Movie 3" />
+            <p class="movie-title">Movie Three</p>
+          </article>
+          <article class="movie-card">
+            <span class="number">4</span>
+            <img src="images/movie4.jpg" alt="Movie 4" />
+            <p class="movie-title">Movie Four</p>
+          </article>
+          <article class="movie-card">
+            <span class="number">5</span>
+            <img src="images/movie5.jpg" alt="Movie 5" />
+            <p class="movie-title">Movie Five</p>
+          </article>
+          <article class="movie-card">
+            <span class="number">6</span>
+            <img src="images/movie6.jpg" alt="Movie 6" />
+            <p class="movie-title">Movie Six</p>
+          </article>
+          <article class="movie-card">
+            <span class="number">7</span>
+            <img src="images/movie7.jpg" alt="Movie 7" />
+            <p class="movie-title">Movie Seven</p>
+          </article>
+          <article class="movie-card">
+            <span class="number">8</span>
+            <img src="images/movie8.jpg" alt="Movie 8" />
+            <p class="movie-title">Movie Eight</p>
+          </article>
+          <article class="movie-card">
+            <span class="number">9</span>
+            <img src="images/movie9.jpg" alt="Movie 9" />
+            <p class="movie-title">Movie Nine</p>
+          </article>
+        </div>
+        <button class="arrow right" type="button" aria-label="Scroll right">&gt;</button>
+      </div>
+    </section>
+
+    <section class="features">
+      <article class="feature-card">
+        <h3>Enjoy on your TV</h3>
+        <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Download and go</h3>
+        <p>Save your favourite shows and movies to watch offline on any device.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Watch everywhere</h3>
+        <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Kids profiles</h3>
+        <p>Create profiles for kids so they can enjoy family-friendly entertainment in a safe space.</p>
+      </article>
+    </section>
+
+    <section class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <button class="question" type="button">
+            <span>What is Netflix?</span>
+            <span class="icon">+</span>
+          </button>
+          <p class="answer">Netflix is a streaming service that offers movies, TV shows and more on hundreds of internet-connected devices. Watch as much as you want, whenever you want, without a single ad.</p>
+        </div>
+        <div class="faq-item">
+          <button class="question" type="button">
+            <span>How much does Netflix cost?</span>
+            <span class="icon">+</span>
+          </button>
+          <p class="answer">Plans start at ₹149 per month. You can change or cancel your plan anytime, and there are no extra fees or contracts.</p>
+        </div>
+        <div class="faq-item">
+          <button class="question" type="button">
+            <span>Where can I watch?</span>
+            <span class="icon">+</span>
+          </button>
+          <p class="answer">Watch on your TV, laptop, phone and tablet. Sign in with your Netflix account to watch instantly on the web at netflix.com or via the mobile app.</p>
+        </div>
+        <div class="faq-item">
+          <button class="question" type="button">
+            <span>How do I cancel?</span>
+            <span class="icon">+</span>
+          </button>
+          <p class="answer">Netflix is flexible. You can easily cancel your account online at any time without a cancellation fee.</p>
+        </div>
+        <div class="faq-item">
+          <button class="question" type="button">
+            <span>What can I watch on Netflix?</span>
+            <span class="icon">+</span>
+          </button>
+          <p class="answer">Netflix has an extensive library of films, documentaries, shows, anime and award-winning Netflix originals. There is always something new to discover.</p>
+        </div>
+        <div class="faq-item">
+          <button class="question" type="button">
+            <span>Is Netflix good for kids?</span>
+            <span class="icon">+</span>
+          </button>
+          <p class="answer">Yes. Netflix includes a kids experience designed for children, with parental controls and family-friendly entertainment in its own profile.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Netflix Clone — created by Annu</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
